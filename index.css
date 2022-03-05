@@ -1,0 +1,59 @@
+*{   
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 300px;
+    background: linear-gradient(246.26deg, #057859 0%, #11B881 100%);
+    background-size: cover;
+    font-weight: bold;
+    color: rgb(240, 224, 224);
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    position: absolute;
+    background: linear-gradient(246.26deg, #057859 0%, #11B881 100%);
+    box-shadow:  0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    padding: 1em;
+    border-radius: 2%;
+    z-index: 1000;
+    max-width: 300px;
+    opacity: .9;
+
+}
+h1 {
+    color: goldenrod;
+}
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#firstcircle{
+    background-color: goldenrod ;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow:   0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    transform: translate(-120px , -50%);
+}
+#secondcircle{
+    background-color: goldenrod ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:   0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    transform: translate(220px , -60% );
+    opacity: .8;
+}
